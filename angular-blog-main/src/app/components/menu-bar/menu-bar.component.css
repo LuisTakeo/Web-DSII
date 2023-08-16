@@ -1,0 +1,30 @@
+.container__menu-bar{
+  height: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.container__menu-bar > ul {
+  display: flex;
+  list-style-type: none;
+  background-color: black;
+}
+
+.container__menu-bar > ul > li {
+  margin: 0 10px;
+  background-color: black;
+}
+
+.container__menu-bar > ul > li > a {
+
+  background-color: black;
+  color: #FFF;
+}
+
+.container__menu-bar > ul > li > span {
+  padding: 0;
+  color: #FFF;
+  background-color: black;
+}

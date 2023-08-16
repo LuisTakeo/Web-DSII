@@ -1,0 +1,27 @@
+.container__content{
+  width: 100%;
+  height: 100vh;
+  margin-top: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.content__cover > img {
+  width: 60vw;
+  min-width: 30vw;
+  border: 3px solid rgb(29, 133, 252);
+  border-radius: 100px;
+}
+
+.content__description{
+  margin-top: 10px;
+}
+
+.content__description > p {
+  color: gainsboro;
+  margin-bottom: 10px;
+}
